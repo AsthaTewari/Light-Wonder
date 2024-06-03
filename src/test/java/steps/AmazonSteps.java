@@ -54,7 +54,7 @@ public class AmazonSteps {
         }
         productPage.addToCart();
     }
-
+   
     @Then("I open the cart")
     public void iOpenTheCart() {
         driver.get("https://www.amazon.com/gp/cart/view.html");
